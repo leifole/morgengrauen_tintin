@@ -1,0 +1,383 @@
+C 50000
+
+CE <078>
+CH <118>
+CP <138>
+CR <178>
+
+F 10
+
+I 78
+
+L * # # # | # x          
+
+
+R {    1} {0} {} {Steg} { } {} {} {} {} {} {1.000}
+E {    2} {norden} {norden} {1} {0} {}
+E {    7} {osten} {osten} {2} {0} {}
+
+R {    2} {0} {} {} { } {} {} {} {} {} {1.000}
+E {    1} {sueden} {sueden} {4} {0} {}
+E {    3} {nordwesten} {nordwesten} {9} {0} {}
+
+R {    3} {0} {} {} { } {} {} {} {} {} {1.000}
+E {    2} {suedosten} {suedosten} {6} {0} {}
+E {    4} {nordwesten} {nordwesten} {9} {0} {}
+
+R {    4} {0} {} {} { } {} {} {} {} {} {1.000}
+E {    3} {suedosten} {suedosten} {6} {0} {}
+E {    5} {osten} {osten} {2} {0} {}
+E {    6} {norden} {norden} {1} {0} {}
+
+R {    5} {0} {} {} { } {} {} {} {} {} {1.000}
+E {    4} {westen} {westen} {8} {0} {}
+
+R {    6} {0} {} {} { } {} {} {} {} {} {1.000}
+E {    4} {sueden} {sueden} {4} {0} {}
+
+R {    7} {0} {} {} { } {} {} {} {} {} {1.000}
+E {    1} {westen} {westen} {8} {0} {}
+E {    8} {sueden} {sueden} {4} {0} {}
+E {    9} {norden} {norden} {1} {0} {}
+E {   10} {osten} {osten} {2} {0} {}
+
+R {    8} {0} {} {} { } {} {} {} {} {} {1.000}
+E {    7} {norden} {norden} {1} {0} {}
+E {   69} {sueden} {sueden} {4} {0} {}
+
+R {    9} {0} {} {} { } {} {} {} {} {} {1.000}
+E {    7} {sueden} {sueden} {4} {0} {}
+E {   11} {norden} {norden} {1} {0} {}
+
+R {   10} {0} {} {} { } {} {} {} {} {} {1.000}
+E {    7} {westen} {westen} {8} {0} {}
+E {   54} {sueden} {sueden} {4} {0} {}
+E {   60} {norden} {norden} {1} {0} {}
+E {   66} {osten} {osten} {2} {0} {}
+
+R {   11} {0} {} {} { } {} {} {} {} {} {1.000}
+E {    9} {sueden} {sueden} {4} {0} {}
+E {   12} {norden} {norden} {1} {0} {}
+E {   17} {osten} {osten} {2} {0} {}
+
+R {   12} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   11} {sueden} {sueden} {4} {0} {}
+E {   13} {norden} {norden} {1} {0} {}
+
+R {   13} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   12} {sueden} {sueden} {4} {0} {}
+E {   14} {norden} {norden} {1} {0} {}
+
+R {   14} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   13} {sueden} {sueden} {4} {0} {}
+E {   15} {osten} {osten} {2} {0} {}
+E {   16} {norden} {norden} {1} {0} {}
+
+R {   15} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   14} {westen} {westen} {8} {0} {}
+
+R {   16} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   14} {sueden} {sueden} {4} {0} {}
+
+R {   17} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   11} {westen} {westen} {8} {0} {}
+E {   18} {osten} {osten} {2} {0} {}
+
+R {   18} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   17} {westen} {westen} {8} {0} {}
+E {   19} {norden} {norden} {1} {0} {}
+E {   26} {osten} {osten} {2} {0} {}
+
+R {   19} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   18} {sueden} {sueden} {4} {0} {}
+E {   20} {norden} {norden} {1} {0} {}
+E {   24} {osten} {osten} {2} {0} {}
+
+R {   20} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   19} {sueden} {sueden} {4} {0} {}
+E {   21} {westen} {westen} {8} {0} {}
+E {   23} {nordosten} {nordosten} {3} {0} {}
+
+R {   21} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   20} {osten} {osten} {2} {0} {}
+E {   22} {sueden} {sueden} {4} {0} {}
+
+R {   22} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   21} {norden} {norden} {1} {0} {}
+
+R {   23} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   20} {suedwesten} {suedwesten} {12} {0} {}
+
+R {   24} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   19} {westen} {westen} {8} {0} {}
+
+R {   25} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   26} {westen} {westen} {8} {0} {}
+E {   27} {norden} {norden} {1} {0} {}
+E {   40} {osten} {osten} {2} {0} {}
+
+R {   26} {8} {} {} { } {} {} {} {} {} {1.000}
+E {   25} {osten} {osten} {2} {0} {}
+E {   18} {westen} {westen} {8} {0} {}
+
+R {   27} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   25} {sueden} {sueden} {4} {0} {}
+E {   28} {norden} {norden} {1} {0} {}
+
+R {   28} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   27} {sueden} {sueden} {4} {0} {}
+E {   29} {norden} {norden} {1} {0} {}
+
+R {   29} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   28} {sueden} {sueden} {4} {0} {}
+E {   30} {norden} {norden} {1} {0} {}
+
+R {   30} {0} {} {Marktplatz} { } {} {} {} {} {} {1.000}
+E {   29} {sueden} {sueden} {4} {0} {}
+E {   31} {norden} {norden} {1} {0} {}
+E {   37} {nordwesten} {nordwesten} {9} {0} {}
+E {   34} {nordosten} {nordosten} {3} {0} {}
+E {   35} {osten} {osten} {2} {0} {}
+E {   39} {westen} {westen} {8} {0} {}
+
+R {   31} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   30} {sueden} {sueden} {4} {0} {}
+E {   32} {nordwesten} {nordwesten} {9} {0} {}
+E {   34} {osten} {osten} {2} {0} {}
+E {   33} {norden} {norden} {1} {0} {}
+E {   35} {suedosten} {suedosten} {6} {0} {}
+E {   36} {nordosten} {nordosten} {3} {0} {}
+E {   37} {westen} {westen} {8} {0} {}
+E {   39} {suedwesten} {suedwesten} {12} {0} {}
+
+R {   32} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   31} {suedosten} {suedosten} {6} {0} {}
+E {   33} {osten} {osten} {2} {0} {}
+E {   37} {sueden} {sueden} {4} {0} {}
+
+R {   33} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   32} {westen} {westen} {8} {0} {}
+E {   34} {suedosten} {suedosten} {6} {0} {}
+E {   31} {sueden} {sueden} {4} {0} {}
+E {   36} {osten} {osten} {2} {0} {}
+E {   37} {suedwesten} {suedwesten} {12} {0} {}
+
+R {   34} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   31} {westen} {westen} {8} {0} {}
+E {   33} {nordwesten} {nordwesten} {9} {0} {}
+E {   35} {sueden} {sueden} {4} {0} {}
+E {   36} {norden} {norden} {1} {0} {}
+E {   30} {suedwesten} {suedwesten} {12} {0} {}
+
+R {   35} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   31} {nordwesten} {nordwesten} {9} {0} {}
+E {   34} {norden} {norden} {1} {0} {}
+E {   30} {westen} {westen} {8} {0} {}
+
+R {   36} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   34} {sueden} {sueden} {4} {0} {}
+E {   31} {suedwesten} {suedwesten} {12} {0} {}
+E {   33} {westen} {westen} {8} {0} {}
+
+R {   37} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   32} {norden} {norden} {1} {0} {}
+E {   38} {westen} {westen} {8} {0} {}
+E {   33} {nordosten} {nordosten} {3} {0} {}
+E {   31} {osten} {osten} {2} {0} {}
+E {   39} {sueden} {sueden} {4} {0} {}
+E {   30} {suedosten} {suedosten} {6} {0} {}
+
+R {   38} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   37} {osten} {osten} {2} {0} {}
+
+R {   39} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   31} {nordosten} {nordosten} {3} {0} {}
+E {   37} {norden} {norden} {1} {0} {}
+E {   30} {osten} {osten} {2} {0} {}
+
+R {   40} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   25} {westen} {westen} {8} {0} {}
+E {   41} {norden} {norden} {1} {0} {}
+
+R {   41} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   40} {sueden} {sueden} {4} {0} {}
+E {   42} {osten} {osten} {2} {0} {}
+
+R {   42} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   41} {westen} {westen} {8} {0} {}
+E {   43} {osten} {osten} {2} {0} {}
+
+R {   43} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   42} {westen} {westen} {8} {0} {}
+E {   44} {osten} {osten} {2} {0} {}
+
+R {   44} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   43} {westen} {westen} {8} {0} {}
+E {   45} {norden} {norden} {1} {0} {}
+
+R {   45} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   44} {sueden} {sueden} {4} {0} {}
+E {   46} {norden} {norden} {1} {0} {}
+
+R {   46} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   45} {sueden} {sueden} {4} {0} {}
+E {   47} {norden} {norden} {1} {0} {}
+
+R {   47} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   46} {sueden} {sueden} {4} {0} {}
+E {   48} {norden} {norden} {1} {0} {}
+
+R {   48} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   47} {sueden} {sueden} {4} {0} {}
+E {   49} {osten} {osten} {2} {0} {}
+E {   53} {westen} {westen} {8} {0} {}
+E {   52} {nordwesten} {nordwesten} {9} {0} {}
+E {   51} {norden} {norden} {1} {0} {}
+E {   50} {nordosten} {nordosten} {3} {0} {}
+
+R {   49} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   48} {westen} {westen} {8} {0} {}
+E {   50} {norden} {norden} {1} {0} {}
+
+R {   50} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   49} {sueden} {sueden} {4} {0} {}
+E {   51} {westen} {westen} {8} {0} {}
+E {   48} {suedwesten} {suedwesten} {12} {0} {}
+
+R {   51} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   50} {osten} {osten} {2} {0} {}
+E {   52} {westen} {westen} {8} {0} {}
+E {   48} {sueden} {sueden} {4} {0} {}
+
+R {   52} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   51} {osten} {osten} {2} {0} {}
+E {   53} {sueden} {sueden} {4} {0} {}
+E {   48} {suedosten} {suedosten} {6} {0} {}
+
+R {   53} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   52} {norden} {norden} {1} {0} {}
+E {   48} {osten} {osten} {2} {0} {}
+
+R {   54} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   10} {norden} {norden} {1} {0} {}
+E {   55} {sueden} {sueden} {4} {0} {}
+E {   59} {osten} {osten} {2} {0} {}
+
+R {   55} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   54} {norden} {norden} {1} {0} {}
+E {   56} {osten} {osten} {2} {0} {}
+
+R {   56} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   55} {westen} {westen} {8} {0} {}
+E {   57} {osten} {osten} {2} {0} {}
+
+R {   57} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   56} {westen} {westen} {8} {0} {}
+E {   58} {norden} {norden} {1} {0} {}
+
+R {   58} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   57} {sueden} {sueden} {4} {0} {}
+E {   59} {westen} {westen} {8} {0} {}
+
+R {   59} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   58} {osten} {osten} {2} {0} {}
+E {   54} {westen} {westen} {8} {0} {}
+
+R {   60} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   10} {sueden} {sueden} {4} {0} {}
+E {   61} {osten} {osten} {2} {0} {}
+
+R {   61} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   60} {westen} {westen} {8} {0} {}
+E {   62} {osten} {osten} {2} {0} {}
+
+R {   62} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   61} {westen} {westen} {8} {0} {}
+E {   63} {osten} {osten} {2} {0} {}
+
+R {   63} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   62} {westen} {westen} {8} {0} {}
+E {   64} {sueden} {sueden} {4} {0} {}
+
+R {   64} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   63} {norden} {norden} {1} {0} {}
+E {   65} {westen} {westen} {8} {0} {}
+
+R {   65} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   64} {osten} {osten} {2} {0} {}
+E {   66} {westen} {westen} {8} {0} {}
+
+R {   66} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   65} {osten} {osten} {2} {0} {}
+E {   10} {westen} {westen} {8} {0} {}
+
+R {   67} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   69} {norden} {norden} {1} {0} {}
+E {   68} {suedosten} {suedosten} {6} {0} {}
+E {   70} {sueden} {sueden} {4} {0} {}
+E {   74} {osten} {osten} {2} {0} {}
+
+R {   68} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   67} {nordwesten} {nordwesten} {9} {0} {}
+E {   73} {sueden} {sueden} {4} {0} {}
+E {   70} {westen} {westen} {8} {0} {}
+E {   71} {suedwesten} {suedwesten} {12} {0} {}
+E {   74} {norden} {norden} {1} {0} {}
+E {   75} {nordosten} {nordosten} {3} {0} {}
+E {   76} {osten} {osten} {2} {0} {}
+E {   77} {suedosten} {suedosten} {6} {0} {}
+
+R {   69} {8} {} {} { } {} {} {} {} {} {1.000}
+E {    8} {norden} {norden} {1} {0} {}
+E {   67} {sueden} {sueden} {4} {0} {}
+
+R {   70} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   67} {norden} {norden} {1} {0} {}
+E {   71} {sueden} {sueden} {4} {0} {}
+E {   68} {osten} {osten} {2} {0} {}
+E {   73} {suedosten} {suedosten} {6} {0} {}
+E {   74} {nordosten} {nordosten} {3} {0} {}
+
+R {   71} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   70} {norden} {norden} {1} {0} {}
+E {   72} {suedwesten} {suedwesten} {12} {0} {}
+E {   73} {osten} {osten} {2} {0} {}
+E {   68} {nordosten} {nordosten} {3} {0} {}
+
+R {   72} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   71} {nordosten} {nordosten} {3} {0} {}
+
+R {   73} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   71} {westen} {westen} {8} {0} {}
+E {   68} {norden} {norden} {1} {0} {}
+E {   70} {nordwesten} {nordwesten} {9} {0} {}
+E {   76} {nordosten} {nordosten} {3} {0} {}
+E {   77} {osten} {osten} {2} {0} {}
+
+R {   74} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   68} {sueden} {sueden} {4} {0} {}
+E {   67} {westen} {westen} {8} {0} {}
+E {   70} {suedwesten} {suedwesten} {12} {0} {}
+E {   75} {osten} {osten} {2} {0} {}
+E {   76} {suedosten} {suedosten} {6} {0} {}
+
+R {   75} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   74} {westen} {westen} {8} {0} {}
+E {   68} {suedwesten} {suedwesten} {12} {0} {}
+E {   76} {sueden} {sueden} {4} {0} {}
+
+R {   76} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   68} {westen} {westen} {8} {0} {}
+E {   75} {norden} {norden} {1} {0} {}
+E {   74} {nordwesten} {nordwesten} {9} {0} {}
+E {   77} {sueden} {sueden} {4} {0} {}
+E {   73} {suedwesten} {suedwesten} {12} {0} {}
+
+R {   77} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   68} {nordwesten} {nordwesten} {9} {0} {}
+E {   76} {norden} {norden} {1} {0} {}
+E {   73} {westen} {westen} {8} {0} {}
+E {   78} {osten} {osten} {2} {0} {}
+
+R {   78} {0} {} {Bombadil} { } {} {} {} {} {} {1.000}
+E {   77} {westen} {westen} {8} {0} {}
