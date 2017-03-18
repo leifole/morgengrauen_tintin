@@ -8,7 +8,7 @@
 	#VARIABLE {_sb_char} {%0};
 	@DEBUG_var{_sb_char};
 
-	#FORMAT {_sb_text} {    LP: %d/%d | SP: %d/%d | Gift: %d/%d  }
+	#FORMAT {_sb_text} {    LP: %d/%d | KP: %d/%d | Gift: %d/%d  }
 		{${_sb_char.vitals.hp}} {${_sb_char.maxvitals.max_hp}}
 		{${_sb_char.vitals.sp}} {${_sb_char.maxvitals.max_sp}}
 		{${_sb_char.vitals.poison}} {${_sb_char.maxvitals.max_poison}}
