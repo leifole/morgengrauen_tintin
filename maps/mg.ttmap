@@ -7,7 +7,7 @@ CR <178>
 
 F 10
 
-I 166
+I 181
 
 L * # # # | # x          
 
@@ -175,6 +175,7 @@ R {   40} {0} {} {} { } {} {} {} {} {} {1.000}
 E {   39} {suedosten} {suedosten} {6} {0} {}
 E {   41} {nordwesten} {nordwesten} {9} {0} {}
 E {  165} {osten} {osten} {2} {0} {}
+E {  167} {westen} {westen} {8} {0} {}
 
 R {   41} {0} {} {} { } {} {} {} {} {} {1.000}
 E {   40} {suedosten} {suedosten} {6} {0} {}
@@ -675,3 +676,108 @@ E {  164} {osten} {osten} {2} {0} {}
 
 R {  166} {0} {} {Imbiss} { } {} {} {} {} {} {1.000}
 E {  164} {norden} {norden} {1} {0} {}
+
+R {  167} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   40} {osten} {osten} {2} {0} {}
+E {  168} {westen} {westen} {8} {0} {}
+
+R {  168} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  167} {osten} {osten} {2} {0} {}
+E {  169} {westen} {westen} {8} {0} {}
+
+R {  169} {0} {} {Wilhelmsburg} { } {} {} {} {} {} {1.000}
+E {  168} {osten} {osten} {2} {0} {}
+E {  170} {sueden} {sueden} {4} {0} {}
+
+R {  170} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  169} {norden} {norden} {1} {0} {}
+E {  171} {osten} {osten} {2} {0} {}
+E {  172} {sueden} {sueden} {4} {0} {}
+E {  175} {suedosten} {suedosten} {6} {0} {}
+E {  176} {suedwesten} {suedwesten} {12} {0} {}
+
+R {  171} {0} {} {Hotel} { } {} {} {} {} {} {1.000}
+E {  170} {westen} {westen} {8} {0} {}
+
+R {  172} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  170} {norden} {norden} {1} {0} {}
+E {  173} {sueden} {sueden} {4} {0} {}
+E {  175} {osten} {osten} {2} {0} {}
+E {  176} {westen} {westen} {8} {0} {}
+
+R {  173} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  172} {norden} {norden} {1} {0} {}
+E {  174} {osten} {osten} {2} {0} {}
+
+R {  174} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  173} {westen} {westen} {8} {0} {}
+E {  175} {norden} {norden} {1} {0} {}
+
+R {  175} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  174} {sueden} {sueden} {4} {0} {}
+E {  172} {westen} {westen} {8} {0} {}
+E {  170} {nordwesten} {nordwesten} {9} {0} {}
+
+R {  176} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  172} {osten} {osten} {2} {0} {}
+E {  170} {nordosten} {nordosten} {3} {0} {}
+E {  177} {westen} {westen} {8} {0} {}
+
+R {  177} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  176} {osten} {osten} {2} {0} {}
+E {  178} {nordwesten} {nordwesten} {9} {0} {}
+E {  180} {westen} {westen} {8} {0} {}
+
+R {  178} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  177} {suedosten} {suedosten} {6} {0} {}
+E {  179} {nordwesten} {nordwesten} {9} {0} {}
+
+R {  179} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  178} {suedosten} {suedosten} {6} {0} {}
+
+R {  180} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  177} {osten} {osten} {2} {0} {}
+E {  181} {westen} {westen} {8} {0} {}
+
+R {  181} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  180} {osten} {osten} {2} {0} {}
+E {  186} {sueden} {sueden} {4} {0} {}
+
+R {  182} {0} {} {Finsterwaldklinik} { } {} {} {} {} {} {1.000}
+E {  186} {norden} {norden} {1} {0} {}
+E {  183} {sueden} {sueden} {4} {0} {}
+E {  184} {westen} {westen} {8} {0} {}
+E {  185} {osten} {osten} {2} {0} {}
+
+R {  183} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  182} {norden} {norden} {1} {0} {}
+
+R {  184} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  182} {osten} {osten} {2} {0} {}
+
+R {  185} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  182} {westen} {westen} {8} {0} {}
+E {  187} {norden} {norden} {1} {0} {}
+E {  188} {sueden} {sueden} {4} {0} {}
+E {  189} {osten} {osten} {2} {0} {}
+
+R {  186} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  181} {norden} {norden} {1} {0} {}
+E {  182} {sueden} {sueden} {4} {0} {}
+
+R {  187} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  185} {sueden} {sueden} {4} {0} {}
+
+R {  188} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  185} {norden} {norden} {1} {0} {}
+
+R {  189} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  185} {westen} {westen} {8} {0} {}
+E {  190} {norden} {norden} {1} {0} {}
+E {  191} {sueden} {sueden} {4} {0} {}
+
+R {  190} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  189} {sueden} {sueden} {4} {0} {}
+
+R {  191} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  189} {norden} {norden} {1} {0} {}
