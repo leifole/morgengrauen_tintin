@@ -7,7 +7,7 @@ CR <178>
 
 F 10
 
-I 181
+I 382
 
 L * # # # | # x          
 
@@ -162,6 +162,7 @@ R {   37} {0} {} {} { } {} {} {} {} {} {1.000}
 E {   36} {osten} {osten} {2} {0} {}
 E {   38} {norden} {norden} {1} {0} {}
 E {   64} {sueden} {sueden} {4} {0} {}
+E {  324} {westen} {westen} {8} {0} {}
 
 R {   38} {0} {} {} { } {} {} {} {} {} {1.000}
 E {   37} {sueden} {sueden} {4} {0} {}
@@ -211,6 +212,7 @@ E {   48} {westen} {westen} {8} {0} {}
 R {   48} {0} {} {} { } {} {} {} {} {} {1.000}
 E {   47} {osten} {osten} {2} {0} {}
 E {   49} {nordosten} {nordosten} {3} {0} {}
+E {   94} {nordwesten} {nordwesten} {9} {0} {}
 
 R {   49} {0} {} {} { } {} {} {} {} {} {1.000}
 E {   48} {suedwesten} {suedwesten} {12} {0} {}
@@ -386,17 +388,20 @@ E {   89} {norden} {norden} {1} {0} {}
 R {   92} {0} {} {Drachenhort} { } {} {} {} {} {} {1.000}
 E {   89} {osten} {osten} {2} {0} {}
 E {   93} {nordwesten} {nordwesten} {9} {0} {}
+E {  192} {norden} {norden} {1} {0} {}
+E {  193} {sueden} {sueden} {4} {0} {}
+E {  194} {suedwesten} {suedwesten} {12} {0} {}
 
 R {   93} {0} {} {} { } {} {} {} {} {} {1.000}
 E {   92} {suedosten} {suedosten} {6} {0} {}
-E {   94} {nordwesten} {nordwesten} {9} {0} {}
 
 R {   94} {0} {} {} { } {} {} {} {} {} {1.000}
-E {   93} {suedosten} {suedosten} {6} {0} {}
-E {   95} {norden} {norden} {1} {0} {}
+E {   48} {suedosten} {suedosten} {6} {0} {}
+E {  295} {westen} {westen} {8} {0} {}
 
 R {   95} {0} {} {} { } {} {} {} {} {} {1.000}
-E {   94} {sueden} {sueden} {4} {0} {}
+E {  217} {westen} {westen} {8} {0} {}
+E {  230} {norden} {norden} {1} {0} {}
 
 R {   96} {0} {} {} { } {} {} {} {} {} {1.000}
 E {   72} {norden} {norden} {1} {0} {}
@@ -665,6 +670,7 @@ E {  163} {westen} {westen} {8} {0} {}
 
 R {  163} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  162} {osten} {osten} {2} {0} {}
+E {  362} {westen} {westen} {8} {0} {}
 
 R {  164} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  165} {westen} {westen} {8} {0} {}
@@ -687,10 +693,10 @@ E {  169} {westen} {westen} {8} {0} {}
 
 R {  169} {0} {} {Wilhelmsburg} { } {} {} {} {} {} {1.000}
 E {  168} {osten} {osten} {2} {0} {}
-E {  170} {sueden} {sueden} {4} {0} {}
+E {  326} {sueden} {sueden} {4} {0} {}
 
 R {  170} {0} {} {} { } {} {} {} {} {} {1.000}
-E {  169} {norden} {norden} {1} {0} {}
+E {  326} {norden} {norden} {1} {0} {}
 E {  171} {osten} {osten} {2} {0} {}
 E {  172} {sueden} {sueden} {4} {0} {}
 E {  175} {suedosten} {suedosten} {6} {0} {}
@@ -781,3 +787,941 @@ E {  189} {sueden} {sueden} {4} {0} {}
 
 R {  191} {0} {} {} { } {} {} {} {} {} {1.000}
 E {  189} {norden} {norden} {1} {0} {}
+
+R {  192} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   92} {sueden} {sueden} {4} {0} {}
+
+R {  193} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   92} {norden} {norden} {1} {0} {}
+
+R {  194} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   92} {nordosten} {nordosten} {3} {0} {}
+E {  195} {norden} {norden} {1} {0} {}
+E {  220} {westen} {westen} {8} {0} {}
+
+R {  195} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  194} {sueden} {sueden} {4} {0} {}
+
+R {  196} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  222} {osten} {osten} {2} {0} {}
+E {  197} {sueden} {sueden} {4} {0} {}
+E {  215} {nordwesten} {nordwesten} {9} {0} {}
+
+R {  197} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  196} {norden} {norden} {1} {0} {}
+E {  198} {sueden} {sueden} {4} {0} {}
+
+R {  198} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  197} {norden} {norden} {1} {0} {}
+E {  199} {sueden} {sueden} {4} {0} {}
+
+R {  199} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  198} {norden} {norden} {1} {0} {}
+E {  200} {sueden} {sueden} {4} {0} {}
+
+R {  200} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  199} {norden} {norden} {1} {0} {}
+E {  201} {sueden} {sueden} {4} {0} {}
+
+R {  201} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  200} {norden} {norden} {1} {0} {}
+E {  202} {sueden} {sueden} {4} {0} {}
+E {  206} {westen} {westen} {8} {0} {}
+
+R {  202} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  201} {norden} {norden} {1} {0} {}
+E {  203} {sueden} {sueden} {4} {0} {}
+
+R {  203} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  202} {norden} {norden} {1} {0} {}
+E {  204} {sueden} {sueden} {4} {0} {}
+
+R {  204} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  203} {norden} {norden} {1} {0} {}
+E {  205} {sueden} {sueden} {4} {0} {}
+
+R {  205} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  204} {norden} {norden} {1} {0} {}
+
+R {  206} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  201} {osten} {osten} {2} {0} {}
+E {  207} {suedwesten} {suedwesten} {12} {0} {}
+
+R {  207} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  206} {nordosten} {nordosten} {3} {0} {}
+E {  208} {suedwesten} {suedwesten} {12} {0} {}
+
+R {  208} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  207} {nordosten} {nordosten} {3} {0} {}
+E {  209} {westen} {westen} {8} {0} {}
+
+R {  209} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  208} {osten} {osten} {2} {0} {}
+E {  210} {westen} {westen} {8} {0} {}
+
+R {  210} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  209} {osten} {osten} {2} {0} {}
+E {  211} {sueden} {sueden} {4} {0} {}
+E {  212} {westen} {westen} {8} {0} {}
+
+R {  211} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  210} {norden} {norden} {1} {0} {}
+
+R {  212} {0} {} {Masinya} { } {} {} {} {} {} {1.000}
+E {  210} {osten} {osten} {2} {0} {}
+E {  213} {nordosten} {nordosten} {3} {0} {}
+
+R {  213} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  212} {suedwesten} {suedwesten} {12} {0} {}
+E {  214} {nordwesten} {nordwesten} {9} {0} {}
+
+R {  214} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  213} {suedosten} {suedosten} {6} {0} {}
+
+R {  215} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  196} {suedosten} {suedosten} {6} {0} {}
+E {  216} {norden} {norden} {1} {0} {}
+
+R {  216} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  215} {sueden} {sueden} {4} {0} {}
+E {  218} {osten} {osten} {2} {0} {}
+E {  219} {norden} {norden} {1} {0} {}
+
+R {  217} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   95} {osten} {osten} {2} {0} {}
+E {  228} {westen} {westen} {8} {0} {}
+E {  229} {norden} {norden} {1} {0} {}
+
+R {  218} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  216} {westen} {westen} {8} {0} {}
+
+R {  219} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  216} {sueden} {sueden} {4} {0} {}
+E {  221} {norden} {norden} {1} {0} {}
+
+R {  220} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  222} {westen} {westen} {8} {0} {}
+E {  194} {osten} {osten} {2} {0} {}
+
+R {  221} {0} {} {Neandertal} { } {} {} {} {} {} {1.000}
+E {  219} {sueden} {sueden} {4} {0} {}
+E {  223} {westen} {westen} {8} {0} {}
+E {  224} {norden} {norden} {1} {0} {}
+E {  228} {osten} {osten} {2} {0} {}
+
+R {  222} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  220} {osten} {osten} {2} {0} {}
+E {  196} {westen} {westen} {8} {0} {}
+
+R {  223} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  221} {osten} {osten} {2} {0} {}
+E {  242} {westen} {westen} {8} {0} {}
+
+R {  224} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  221} {sueden} {sueden} {4} {0} {}
+E {  225} {norden} {norden} {1} {0} {}
+E {  227} {osten} {osten} {2} {0} {}
+E {  241} {westen} {westen} {8} {0} {}
+
+R {  225} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  224} {sueden} {sueden} {4} {0} {}
+E {  226} {osten} {osten} {2} {0} {}
+E {  236} {westen} {westen} {8} {0} {}
+
+R {  226} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  225} {westen} {westen} {8} {0} {}
+E {  227} {sueden} {sueden} {4} {0} {}
+E {  235} {osten} {osten} {2} {0} {}
+
+R {  227} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  226} {norden} {norden} {1} {0} {}
+E {  224} {westen} {westen} {8} {0} {}
+E {  228} {sueden} {sueden} {4} {0} {}
+E {  229} {osten} {osten} {2} {0} {}
+
+R {  228} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  221} {westen} {westen} {8} {0} {}
+E {  227} {norden} {norden} {1} {0} {}
+E {  217} {osten} {osten} {2} {0} {}
+
+R {  229} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  227} {westen} {westen} {8} {0} {}
+E {  230} {osten} {osten} {2} {0} {}
+E {  235} {norden} {norden} {1} {0} {}
+E {  217} {sueden} {sueden} {4} {0} {}
+
+R {  230} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  229} {westen} {westen} {8} {0} {}
+E {  231} {osten} {osten} {2} {0} {}
+E {   95} {sueden} {sueden} {4} {0} {}
+
+R {  231} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  230} {westen} {westen} {8} {0} {}
+E {  232} {osten} {osten} {2} {0} {}
+E {  233} {norden} {norden} {1} {0} {}
+
+R {  232} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  231} {westen} {westen} {8} {0} {}
+
+R {  233} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  231} {sueden} {sueden} {4} {0} {}
+E {  234} {westen} {westen} {8} {0} {}
+
+R {  234} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  233} {osten} {osten} {2} {0} {}
+E {  235} {westen} {westen} {8} {0} {}
+E {  273} {norden} {norden} {1} {0} {}
+
+R {  235} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  234} {osten} {osten} {2} {0} {}
+E {  226} {westen} {westen} {8} {0} {}
+E {  272} {norden} {norden} {1} {0} {}
+E {  229} {sueden} {sueden} {4} {0} {}
+
+R {  236} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  225} {osten} {osten} {2} {0} {}
+E {  237} {westen} {westen} {8} {0} {}
+E {  257} {norden} {norden} {1} {0} {}
+E {  241} {sueden} {sueden} {4} {0} {}
+
+R {  237} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  236} {osten} {osten} {2} {0} {}
+E {  238} {westen} {westen} {8} {0} {}
+E {  256} {norden} {norden} {1} {0} {}
+E {  240} {sueden} {sueden} {4} {0} {}
+
+R {  238} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  237} {osten} {osten} {2} {0} {}
+E {  239} {sueden} {sueden} {4} {0} {}
+E {  243} {norden} {norden} {1} {0} {}
+
+R {  239} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  238} {norden} {norden} {1} {0} {}
+E {  240} {osten} {osten} {2} {0} {}
+
+R {  240} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  239} {westen} {westen} {8} {0} {}
+E {  241} {osten} {osten} {2} {0} {}
+E {  242} {sueden} {sueden} {4} {0} {}
+E {  237} {norden} {norden} {1} {0} {}
+
+R {  241} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  240} {westen} {westen} {8} {0} {}
+E {  224} {osten} {osten} {2} {0} {}
+E {  236} {norden} {norden} {1} {0} {}
+
+R {  242} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  223} {osten} {osten} {2} {0} {}
+E {  240} {norden} {norden} {1} {0} {}
+
+R {  243} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  238} {sueden} {sueden} {4} {0} {}
+E {  244} {westen} {westen} {8} {0} {}
+E {  246} {norden} {norden} {1} {0} {}
+
+R {  244} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  243} {osten} {osten} {2} {0} {}
+E {  245} {westen} {westen} {8} {0} {}
+
+R {  245} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  244} {osten} {osten} {2} {0} {}
+
+R {  246} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  243} {sueden} {sueden} {4} {0} {}
+E {  247} {norden} {norden} {1} {0} {}
+E {  255} {osten} {osten} {2} {0} {}
+
+R {  247} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  246} {sueden} {sueden} {4} {0} {}
+E {  248} {norden} {norden} {1} {0} {}
+
+R {  248} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  247} {sueden} {sueden} {4} {0} {}
+E {  249} {norden} {norden} {1} {0} {}
+
+R {  249} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  248} {sueden} {sueden} {4} {0} {}
+E {  250} {westen} {westen} {8} {0} {}
+E {  252} {osten} {osten} {2} {0} {}
+
+R {  250} {0} {} {Neanderstadt} { } {} {} {} {} {} {1.000}
+E {  249} {osten} {osten} {2} {0} {}
+E {  251} {westen} {westen} {8} {0} {}
+
+R {  251} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  250} {osten} {osten} {2} {0} {}
+E {  287} {norden} {norden} {1} {0} {}
+E {  289} {sueden} {sueden} {4} {0} {}
+E {  290} {westen} {westen} {8} {0} {}
+
+R {  252} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  249} {westen} {westen} {8} {0} {}
+E {  253} {sueden} {sueden} {4} {0} {}
+E {  262} {osten} {osten} {2} {0} {}
+
+R {  253} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  252} {norden} {norden} {1} {0} {}
+E {  254} {sueden} {sueden} {4} {0} {}
+
+R {  254} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  253} {norden} {norden} {1} {0} {}
+E {  255} {sueden} {sueden} {4} {0} {}
+
+R {  255} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  254} {norden} {norden} {1} {0} {}
+E {  256} {sueden} {sueden} {4} {0} {}
+E {  258} {osten} {osten} {2} {0} {}
+E {  246} {westen} {westen} {8} {0} {}
+
+R {  256} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  255} {norden} {norden} {1} {0} {}
+E {  237} {sueden} {sueden} {4} {0} {}
+E {  257} {osten} {osten} {2} {0} {}
+
+R {  257} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  236} {sueden} {sueden} {4} {0} {}
+E {  258} {norden} {norden} {1} {0} {}
+E {  256} {westen} {westen} {8} {0} {}
+
+R {  258} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  257} {sueden} {sueden} {4} {0} {}
+E {  259} {norden} {norden} {1} {0} {}
+E {  255} {westen} {westen} {8} {0} {}
+
+R {  259} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  258} {sueden} {sueden} {4} {0} {}
+E {  260} {osten} {osten} {2} {0} {}
+E {  261} {norden} {norden} {1} {0} {}
+
+R {  260} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  259} {westen} {westen} {8} {0} {}
+E {  264} {norden} {norden} {1} {0} {}
+E {  265} {osten} {osten} {2} {0} {}
+
+R {  261} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  259} {sueden} {sueden} {4} {0} {}
+E {  262} {norden} {norden} {1} {0} {}
+
+R {  262} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  261} {sueden} {sueden} {4} {0} {}
+E {  252} {westen} {westen} {8} {0} {}
+E {  263} {osten} {osten} {2} {0} {}
+
+R {  263} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  262} {westen} {westen} {8} {0} {}
+E {  264} {sueden} {sueden} {4} {0} {}
+E {  267} {osten} {osten} {2} {0} {}
+
+R {  264} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  263} {norden} {norden} {1} {0} {}
+E {  260} {sueden} {sueden} {4} {0} {}
+
+R {  265} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  260} {westen} {westen} {8} {0} {}
+E {  266} {norden} {norden} {1} {0} {}
+
+R {  266} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  265} {sueden} {sueden} {4} {0} {}
+E {  267} {norden} {norden} {1} {0} {}
+
+R {  267} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  266} {sueden} {sueden} {4} {0} {}
+E {  263} {westen} {westen} {8} {0} {}
+E {  268} {osten} {osten} {2} {0} {}
+
+R {  268} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  267} {westen} {westen} {8} {0} {}
+E {  269} {sueden} {sueden} {4} {0} {}
+E {  279} {osten} {osten} {2} {0} {}
+
+R {  269} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  268} {norden} {norden} {1} {0} {}
+E {  270} {sueden} {sueden} {4} {0} {}
+E {  278} {osten} {osten} {2} {0} {}
+
+R {  270} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  269} {norden} {norden} {1} {0} {}
+E {  271} {sueden} {sueden} {4} {0} {}
+E {  280} {osten} {osten} {2} {0} {}
+
+R {  271} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  270} {norden} {norden} {1} {0} {}
+E {  272} {sueden} {sueden} {4} {0} {}
+
+R {  272} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  271} {norden} {norden} {1} {0} {}
+E {  235} {sueden} {sueden} {4} {0} {}
+E {  273} {osten} {osten} {2} {0} {}
+
+R {  273} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  272} {westen} {westen} {8} {0} {}
+E {  234} {sueden} {sueden} {4} {0} {}
+E {  274} {osten} {osten} {2} {0} {}
+
+R {  274} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  273} {westen} {westen} {8} {0} {}
+E {  275} {norden} {norden} {1} {0} {}
+E {  281} {osten} {osten} {2} {0} {}
+
+R {  275} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  274} {sueden} {sueden} {4} {0} {}
+E {  276} {norden} {norden} {1} {0} {}
+
+R {  276} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  275} {sueden} {sueden} {4} {0} {}
+E {  277} {norden} {norden} {1} {0} {}
+E {  280} {westen} {westen} {8} {0} {}
+
+R {  277} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  276} {sueden} {sueden} {4} {0} {}
+E {  278} {westen} {westen} {8} {0} {}
+
+R {  278} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  277} {osten} {osten} {2} {0} {}
+E {  279} {norden} {norden} {1} {0} {}
+E {  269} {westen} {westen} {8} {0} {}
+E {  280} {sueden} {sueden} {4} {0} {}
+
+R {  279} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  278} {sueden} {sueden} {4} {0} {}
+E {  268} {westen} {westen} {8} {0} {}
+
+R {  280} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  278} {norden} {norden} {1} {0} {}
+E {  270} {westen} {westen} {8} {0} {}
+E {  276} {osten} {osten} {2} {0} {}
+
+R {  281} {0} {} {Neanderdorf} { } {} {} {} {} {} {1.000}
+E {  274} {westen} {westen} {8} {0} {}
+E {  282} {norden} {norden} {1} {0} {}
+E {  283} {sueden} {sueden} {4} {0} {}
+E {  284} {osten} {osten} {2} {0} {}
+
+R {  282} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  281} {sueden} {sueden} {4} {0} {}
+
+R {  283} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  281} {norden} {norden} {1} {0} {}
+
+R {  284} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  281} {westen} {westen} {8} {0} {}
+E {  285} {norden} {norden} {1} {0} {}
+E {  286} {sueden} {sueden} {4} {0} {}
+
+R {  285} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  284} {sueden} {sueden} {4} {0} {}
+
+R {  286} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  284} {norden} {norden} {1} {0} {}
+
+R {  287} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  251} {sueden} {sueden} {4} {0} {}
+E {  288} {osten} {osten} {2} {0} {}
+
+R {  288} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  287} {westen} {westen} {8} {0} {}
+
+R {  289} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  251} {norden} {norden} {1} {0} {}
+E {  292} {westen} {westen} {8} {0} {}
+
+R {  290} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  251} {osten} {osten} {2} {0} {}
+E {  291} {norden} {norden} {1} {0} {}
+E {  292} {sueden} {sueden} {4} {0} {}
+E {  294} {westen} {westen} {8} {0} {}
+
+R {  291} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  290} {sueden} {sueden} {4} {0} {}
+
+R {  292} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  290} {norden} {norden} {1} {0} {}
+E {  293} {sueden} {sueden} {4} {0} {}
+E {  289} {osten} {osten} {2} {0} {}
+
+R {  293} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  292} {norden} {norden} {1} {0} {}
+
+R {  294} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  290} {osten} {osten} {2} {0} {}
+
+R {  295} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   94} {osten} {osten} {2} {0} {}
+E {  296} {westen} {westen} {8} {0} {}
+
+R {  296} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  295} {osten} {osten} {2} {0} {}
+E {  297} {sueden} {sueden} {4} {0} {}
+E {  298} {westen} {westen} {8} {0} {}
+
+R {  297} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  296} {norden} {norden} {1} {0} {}
+
+R {  298} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  296} {osten} {osten} {2} {0} {}
+E {  299} {westen} {westen} {8} {0} {}
+E {  363} {nordwesten} {nordwesten} {9} {0} {}
+
+R {  299} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  298} {osten} {osten} {2} {0} {}
+E {  300} {suedwesten} {suedwesten} {12} {0} {}
+
+R {  300} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  299} {nordosten} {nordosten} {3} {0} {}
+E {  301} {suedwesten} {suedwesten} {12} {0} {}
+
+R {  301} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  300} {nordosten} {nordosten} {3} {0} {}
+E {  302} {sueden} {sueden} {4} {0} {}
+
+R {  302} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  301} {norden} {norden} {1} {0} {}
+E {  303} {westen} {westen} {8} {0} {}
+E {  312} {sueden} {sueden} {4} {0} {}
+E {  313} {osten} {osten} {2} {0} {}
+E {  308} {suedwesten} {suedwesten} {12} {0} {}
+
+R {  303} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  302} {osten} {osten} {2} {0} {}
+E {  304} {westen} {westen} {8} {0} {}
+E {  308} {sueden} {sueden} {4} {0} {}
+E {  305} {suedwesten} {suedwesten} {12} {0} {}
+
+R {  304} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  303} {osten} {osten} {2} {0} {}
+E {  305} {sueden} {sueden} {4} {0} {}
+E {  308} {suedosten} {suedosten} {6} {0} {}
+
+R {  305} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  304} {norden} {norden} {1} {0} {}
+E {  306} {sueden} {sueden} {4} {0} {}
+E {  303} {nordosten} {nordosten} {3} {0} {}
+E {  309} {suedosten} {suedosten} {6} {0} {}
+
+R {  306} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  305} {norden} {norden} {1} {0} {}
+E {  307} {sueden} {sueden} {4} {0} {}
+E {  309} {osten} {osten} {2} {0} {}
+E {  308} {nordosten} {nordosten} {3} {0} {}
+E {  310} {suedosten} {suedosten} {6} {0} {}
+
+R {  307} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  306} {norden} {norden} {1} {0} {}
+E {  310} {osten} {osten} {2} {0} {}
+
+R {  308} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  303} {norden} {norden} {1} {0} {}
+E {  309} {sueden} {sueden} {4} {0} {}
+E {  306} {suedwesten} {suedwesten} {12} {0} {}
+E {  304} {nordwesten} {nordwesten} {9} {0} {}
+E {  302} {nordosten} {nordosten} {3} {0} {}
+E {  311} {suedosten} {suedosten} {6} {0} {}
+E {  312} {osten} {osten} {2} {0} {}
+
+R {  309} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  308} {norden} {norden} {1} {0} {}
+E {  310} {sueden} {sueden} {4} {0} {}
+E {  306} {westen} {westen} {8} {0} {}
+E {  305} {nordwesten} {nordwesten} {9} {0} {}
+E {  311} {osten} {osten} {2} {0} {}
+
+R {  310} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  309} {norden} {norden} {1} {0} {}
+E {  311} {nordosten} {nordosten} {3} {0} {}
+E {  306} {nordwesten} {nordwesten} {9} {0} {}
+E {  307} {westen} {westen} {8} {0} {}
+E {  319} {osten} {osten} {2} {0} {}
+
+R {  311} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  309} {westen} {westen} {8} {0} {}
+E {  312} {norden} {norden} {1} {0} {}
+E {  319} {sueden} {sueden} {4} {0} {}
+E {  310} {suedwesten} {suedwesten} {12} {0} {}
+E {  322} {suedosten} {suedosten} {6} {0} {}
+E {  320} {nordosten} {nordosten} {3} {0} {}
+E {  308} {nordwesten} {nordwesten} {9} {0} {}
+
+R {  312} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  311} {sueden} {sueden} {4} {0} {}
+E {  302} {norden} {norden} {1} {0} {}
+E {  316} {suedosten} {suedosten} {6} {0} {}
+E {  313} {nordosten} {nordosten} {3} {0} {}
+E {  320} {osten} {osten} {2} {0} {}
+E {  308} {westen} {westen} {8} {0} {}
+
+R {  313} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  302} {westen} {westen} {8} {0} {}
+E {  314} {osten} {osten} {2} {0} {}
+E {  312} {suedwesten} {suedwesten} {12} {0} {}
+E {  315} {suedosten} {suedosten} {6} {0} {}
+E {  320} {sueden} {sueden} {4} {0} {}
+
+R {  314} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  313} {westen} {westen} {8} {0} {}
+E {  315} {sueden} {sueden} {4} {0} {}
+
+R {  315} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  314} {norden} {norden} {1} {0} {}
+E {  316} {suedwesten} {suedwesten} {12} {0} {}
+E {  313} {nordwesten} {nordwesten} {9} {0} {}
+E {  320} {westen} {westen} {8} {0} {}
+E {  321} {sueden} {sueden} {4} {0} {}
+
+R {  316} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  315} {nordosten} {nordosten} {3} {0} {}
+E {  317} {suedosten} {suedosten} {6} {0} {}
+E {  319} {suedwesten} {suedwesten} {12} {0} {}
+E {  312} {nordwesten} {nordwesten} {9} {0} {}
+E {  321} {osten} {osten} {2} {0} {}
+E {  322} {sueden} {sueden} {4} {0} {}
+
+R {  317} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  316} {nordwesten} {nordwesten} {9} {0} {}
+E {  318} {suedwesten} {suedwesten} {12} {0} {}
+E {  321} {norden} {norden} {1} {0} {}
+E {  322} {westen} {westen} {8} {0} {}
+E {  323} {sueden} {sueden} {4} {0} {}
+
+R {  318} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  317} {nordosten} {nordosten} {3} {0} {}
+E {  319} {nordwesten} {nordwesten} {9} {0} {}
+E {  322} {norden} {norden} {1} {0} {}
+E {  323} {osten} {osten} {2} {0} {}
+
+R {  319} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  318} {suedosten} {suedosten} {6} {0} {}
+E {  311} {norden} {norden} {1} {0} {}
+E {  310} {westen} {westen} {8} {0} {}
+E {  316} {nordosten} {nordosten} {3} {0} {}
+E {  322} {osten} {osten} {2} {0} {}
+
+R {  320} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  315} {osten} {osten} {2} {0} {}
+E {  312} {westen} {westen} {8} {0} {}
+E {  311} {suedwesten} {suedwesten} {12} {0} {}
+E {  313} {norden} {norden} {1} {0} {}
+
+R {  321} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  316} {westen} {westen} {8} {0} {}
+E {  315} {norden} {norden} {1} {0} {}
+E {  317} {sueden} {sueden} {4} {0} {}
+
+R {  322} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  317} {osten} {osten} {2} {0} {}
+E {  316} {norden} {norden} {1} {0} {}
+E {  311} {nordwesten} {nordwesten} {9} {0} {}
+E {  319} {westen} {westen} {8} {0} {}
+E {  318} {sueden} {sueden} {4} {0} {}
+
+R {  323} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  318} {westen} {westen} {8} {0} {}
+E {  317} {norden} {norden} {1} {0} {}
+
+R {  324} {0} {} {} { } {} {} {} {} {} {1.000}
+E {   37} {osten} {osten} {2} {0} {}
+E {  325} {westen} {westen} {8} {0} {}
+
+R {  325} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  324} {osten} {osten} {2} {0} {}
+E {  327} {westen} {westen} {8} {0} {}
+
+R {  326} {10} {} {} { } {} {} {} {} {} {1.000}
+E {  170} {sueden} {sueden} {4} {0} {}
+E {  169} {norden} {norden} {1} {0} {}
+
+R {  327} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  325} {osten} {osten} {2} {0} {}
+E {  328} {sueden} {sueden} {4} {0} {}
+E {  330} {westen} {westen} {8} {0} {}
+
+R {  328} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  327} {norden} {norden} {1} {0} {}
+E {  329} {sueden} {sueden} {4} {0} {}
+
+R {  329} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  328} {norden} {norden} {1} {0} {}
+
+R {  330} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  327} {osten} {osten} {2} {0} {}
+E {  331} {westen} {westen} {8} {0} {}
+
+R {  331} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  330} {osten} {osten} {2} {0} {}
+E {  332} {sueden} {sueden} {4} {0} {}
+E {  333} {westen} {westen} {8} {0} {}
+
+R {  332} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  331} {norden} {norden} {1} {0} {}
+
+R {  333} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  331} {osten} {osten} {2} {0} {}
+E {  334} {norden} {norden} {1} {0} {}
+E {  337} {westen} {westen} {8} {0} {}
+
+R {  334} {0} {} {Stadion} { } {} {} {} {} {} {1.000}
+E {  333} {sueden} {sueden} {4} {0} {}
+E {  336} {norden} {norden} {1} {0} {}
+
+R {  335} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  336} {sueden} {sueden} {4} {0} {}
+
+R {  336} {10} {} {} { } {} {} {} {} {} {1.000}
+E {  335} {norden} {norden} {1} {0} {}
+E {  334} {sueden} {sueden} {4} {0} {}
+
+R {  337} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  333} {osten} {osten} {2} {0} {}
+E {  339} {sueden} {sueden} {4} {0} {}
+E {  343} {westen} {westen} {8} {0} {}
+E {  344} {norden} {norden} {1} {0} {}
+
+R {  338} {0} {} {Grimmswald} { } {} {} {} {} {} {1.000}
+E {  339} {norden} {norden} {1} {0} {}
+E {  340} {sueden} {sueden} {4} {0} {}
+
+R {  339} {10} {} {} { } {} {} {} {} {} {1.000}
+E {  338} {sueden} {sueden} {4} {0} {}
+E {  337} {norden} {norden} {1} {0} {}
+
+R {  340} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  338} {norden} {norden} {1} {0} {}
+E {  341} {sueden} {sueden} {4} {0} {}
+
+R {  341} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  340} {norden} {norden} {1} {0} {}
+E {  342} {sueden} {sueden} {4} {0} {}
+
+R {  342} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  341} {norden} {norden} {1} {0} {}
+
+R {  343} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  337} {osten} {osten} {2} {0} {}
+E {  349} {westen} {westen} {8} {0} {}
+
+R {  344} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  337} {sueden} {sueden} {4} {0} {}
+E {  345} {norden} {norden} {1} {0} {}
+
+R {  345} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  344} {sueden} {sueden} {4} {0} {}
+E {  346} {norden} {norden} {1} {0} {}
+
+R {  346} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  345} {sueden} {sueden} {4} {0} {}
+E {  347} {norden} {norden} {1} {0} {}
+
+R {  347} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  346} {sueden} {sueden} {4} {0} {}
+E {  348} {norden} {norden} {1} {0} {}
+
+R {  348} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  347} {sueden} {sueden} {4} {0} {}
+
+R {  349} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  343} {osten} {osten} {2} {0} {}
+E {  350} {sueden} {sueden} {4} {0} {}
+
+R {  350} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  349} {norden} {norden} {1} {0} {}
+E {  351} {sueden} {sueden} {4} {0} {}
+
+R {  351} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  350} {norden} {norden} {1} {0} {}
+E {  352} {sueden} {sueden} {4} {0} {}
+E {  353} {westen} {westen} {8} {0} {}
+
+R {  352} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  351} {norden} {norden} {1} {0} {}
+E {  360} {sueden} {sueden} {4} {0} {}
+
+R {  353} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  351} {osten} {osten} {2} {0} {}
+E {  354} {westen} {westen} {8} {0} {}
+
+R {  354} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  353} {osten} {osten} {2} {0} {}
+E {  355} {norden} {norden} {1} {0} {}
+
+R {  355} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  354} {sueden} {sueden} {4} {0} {}
+E {  356} {norden} {norden} {1} {0} {}
+
+R {  356} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  355} {sueden} {sueden} {4} {0} {}
+E {  357} {norden} {norden} {1} {0} {}
+
+R {  357} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  356} {sueden} {sueden} {4} {0} {}
+E {  358} {nordwesten} {nordwesten} {9} {0} {}
+
+R {  358} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  357} {suedosten} {suedosten} {6} {0} {}
+E {  359} {westen} {westen} {8} {0} {}
+
+R {  359} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  358} {osten} {osten} {2} {0} {}
+
+R {  360} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  352} {norden} {norden} {1} {0} {}
+E {  361} {osten} {osten} {2} {0} {}
+
+R {  361} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  360} {westen} {westen} {8} {0} {}
+
+R {  362} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  163} {osten} {osten} {2} {0} {}
+
+R {  363} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  298} {suedosten} {suedosten} {6} {0} {}
+E {  364} {nordwesten} {nordwesten} {9} {0} {}
+
+R {  364} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  363} {suedosten} {suedosten} {6} {0} {}
+E {  366} {nordosten} {nordosten} {3} {0} {}
+
+R {  365} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  366} {suedwesten} {suedwesten} {12} {0} {}
+E {  383} {norden} {norden} {1} {0} {}
+E {  386} {sueden} {sueden} {4} {0} {}
+E {  391} {osten} {osten} {2} {0} {}
+
+R {  366} {10} {} {} { } {} {} {} {} {} {1.000}
+E {  365} {nordosten} {nordosten} {3} {0} {}
+E {  364} {suedwesten} {suedwesten} {12} {0} {}
+
+R {  367} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  383} {sueden} {sueden} {4} {0} {}
+E {  385} {nordosten} {nordosten} {3} {0} {}
+
+R {  368} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  385} {suedwesten} {suedwesten} {12} {0} {}
+E {  380} {osten} {osten} {2} {0} {}
+
+R {  369} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  380} {westen} {westen} {8} {0} {}
+E {  392} {suedosten} {suedosten} {6} {0} {}
+
+R {  370} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  392} {nordwesten} {nordwesten} {9} {0} {}
+E {  384} {sueden} {sueden} {4} {0} {}
+
+R {  371} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  384} {norden} {norden} {1} {0} {}
+E {  389} {sueden} {sueden} {4} {0} {}
+E {  390} {westen} {westen} {8} {0} {}
+
+R {  372} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  386} {norden} {norden} {1} {0} {}
+E {  387} {suedosten} {suedosten} {6} {0} {}
+
+R {  373} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  387} {nordwesten} {nordwesten} {9} {0} {}
+E {  379} {osten} {osten} {2} {0} {}
+
+R {  374} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  379} {westen} {westen} {8} {0} {}
+E {  388} {nordosten} {nordosten} {3} {0} {}
+
+R {  375} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  388} {suedwesten} {suedwesten} {12} {0} {}
+E {  389} {norden} {norden} {1} {0} {}
+
+R {  376} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  391} {westen} {westen} {8} {0} {}
+E {  377} {sueden} {sueden} {4} {0} {}
+E {  378} {osten} {osten} {2} {0} {}
+E {  382} {norden} {norden} {1} {0} {}
+
+R {  377} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  376} {norden} {norden} {1} {0} {}
+
+R {  378} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  376} {westen} {westen} {8} {0} {}
+E {  381} {osten} {osten} {2} {0} {}
+
+R {  379} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  374} {osten} {osten} {2} {0} {}
+E {  373} {westen} {westen} {8} {0} {}
+
+R {  380} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  369} {osten} {osten} {2} {0} {}
+E {  368} {westen} {westen} {8} {0} {}
+
+R {  381} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  390} {osten} {osten} {2} {0} {}
+E {  378} {westen} {westen} {8} {0} {}
+E {  397} {norden} {norden} {1} {0} {}
+E {  398} {sueden} {sueden} {4} {0} {}
+
+R {  382} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  376} {sueden} {sueden} {4} {0} {}
+E {  393} {norden} {norden} {1} {0} {}
+E {  395} {osten} {osten} {2} {0} {}
+E {  396} {westen} {westen} {8} {0} {}
+
+R {  383} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  367} {norden} {norden} {1} {0} {}
+E {  365} {sueden} {sueden} {4} {0} {}
+
+R {  384} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  370} {norden} {norden} {1} {0} {}
+E {  371} {sueden} {sueden} {4} {0} {}
+
+R {  385} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  368} {nordosten} {nordosten} {3} {0} {}
+E {  367} {suedwesten} {suedwesten} {12} {0} {}
+
+R {  386} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  372} {sueden} {sueden} {4} {0} {}
+E {  365} {norden} {norden} {1} {0} {}
+
+R {  387} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  373} {suedosten} {suedosten} {6} {0} {}
+E {  372} {nordwesten} {nordwesten} {9} {0} {}
+
+R {  388} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  375} {nordosten} {nordosten} {3} {0} {}
+E {  374} {suedwesten} {suedwesten} {12} {0} {}
+
+R {  389} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  371} {norden} {norden} {1} {0} {}
+E {  375} {sueden} {sueden} {4} {0} {}
+
+R {  390} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  381} {westen} {westen} {8} {0} {}
+E {  371} {osten} {osten} {2} {0} {}
+
+R {  391} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  365} {westen} {westen} {8} {0} {}
+E {  376} {osten} {osten} {2} {0} {}
+
+R {  392} {8} {} {} { } {} {} {} {} {} {1.000}
+E {  370} {suedosten} {suedosten} {6} {0} {}
+E {  369} {nordwesten} {nordwesten} {9} {0} {}
+
+R {  393} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  382} {sueden} {sueden} {4} {0} {}
+E {  394} {oben} {oben} {16} {0} {}
+
+R {  394} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  393} {unten} {unten} {32} {0} {}
+
+R {  395} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  382} {westen} {westen} {8} {0} {}
+
+R {  396} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  382} {osten} {osten} {2} {0} {}
+
+R {  397} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  381} {sueden} {sueden} {4} {0} {}
+
+R {  398} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  381} {norden} {norden} {1} {0} {}
+E {  399} {sueden} {sueden} {4} {0} {}
+
+R {  399} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  398} {norden} {norden} {1} {0} {}
+E {  400} {oben} {oben} {16} {0} {}
+
+R {  400} {0} {} {} { } {} {} {} {} {} {1.000}
+E {  399} {unten} {unten} {32} {0} {}
