@@ -1,0 +1,33 @@
+Du schaetzt Deine Faehigkeiten als Kaempfer ein:
+Kampftechniken:
+   Faustkampf                    : noch laengst nicht sehr schlecht
+   Kampf mit Zyn                 : bald schon superuebel
+   Kampf mit Kyll                : weit entfernt von sehr sehr uebel
+   Kampf mit Bielkyll            : weit entfernt von uebel
+   Kampf mit Kzrok               : fast sehr schlecht
+   Kampf mit Zaakh               : noch laengst nicht sehr befriedigend
+   Kampf mit Zweihandwaffen      : bald schon sehr sehr uebel
+Besondere Angriffe:
+   Kampftritt                    : noch laengst nicht gut
+   Kniestoss                     : befriedigend
+   Ellbogenschlag                : fast schlecht
+   Schildstoss                   : bald schon ganz gut
+   Waffenwurf                    : durchschnittlich
+   Waffenschlag                  : durchschnittlich
+Besondere Waffen- und Schildtechniken:
+   Schildparade                  : bald schon befriedigend
+   Parade                        : bald schon befriedigend
+   Finte                         : sehr befriedigend
+   Waffentrick                   : weit entfernt von schlecht
+Besondere Kampftaktiken und Techniken:
+   Fokus                         : noch laengst nicht sehr befriedigend
+   Allgemeine Taktik             : noch laengst nicht durchschnittlich
+   Beschimpfen                   : bald schon sehr befriedigend
+   Wilde Raserei                 : noch laengst nicht schlecht
+   Unterlaufen                   : schlecht
+Sonstiges:
+   Einschaetzen                  : weit entfernt von hervorragend
+   Identifizieren                : fast befriedigend
+   Schmerz                       : weit entfernt von schlecht
+   Waffenschaerfen               : sehr schlecht
+
